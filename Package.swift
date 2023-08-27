@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.8
 
 import PackageDescription
 
@@ -15,7 +15,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/krzyzanowskim/STTextView", from: "0.8.9")
+        .package(url: "https://github.com/krzyzanowskim/STTextView", from: "0.8.10")
     ],
     targets: [
         .target(
