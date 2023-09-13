@@ -7,7 +7,7 @@ public struct DummyPlugin: STPlugin {
 
     public init() { }
 
-    public func setUp(context: Context) {
+    public func setUp(context: any Context) {
         context.events.onWillChangeText(willChangeText)
         context.events.onDidChangeText(didChangeText)
         context.events.shouldChangeText(shouldChangeText)
